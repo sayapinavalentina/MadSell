@@ -13,10 +13,17 @@
 		3FB472D027F2DC2A00ED7644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB472CE27F2DC2A00ED7644 /* Main.storyboard */; };
 		3FB472D227F2DC2B00ED7644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB472D127F2DC2B00ED7644 /* Assets.xcassets */; };
 		3FB472D527F2DC2B00ED7644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB472D327F2DC2B00ED7644 /* LaunchScreen.storyboard */; };
+		3FB472DD27F2E34700ED7644 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB472DC27F2E34700ED7644 /* RegistrationViewController.swift */; };
+		3FB472DF27F2ED4E00ED7644 /* IvanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB472DE27F2ED4E00ED7644 /* IvanViewController.swift */; };
+		3FB472E127F2F8F500ED7644 /* СamerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB472E027F2F8F500ED7644 /* СamerViewController.swift */; };
+		3FB472E527F2FF7200ED7644 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB472E427F2FF7200ED7644 /* TabBarViewController.swift */; };
+		3FB472E727F3030E00ED7644 /* CamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB472E627F3030E00ED7644 /* CamViewController.swift */; };
+		3FB472E927F30AEB00ED7644 /* CamerrraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB472E827F30AEB00ED7644 /* CamerrraViewController.swift */; };
+		3FB472EB27F3108000ED7644 /* PickCategoryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB472EA27F3108000ED7644 /* PickCategoryPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FB472C527F2DC2A00ED7644 /* MadSell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadSell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB472C527F2DC2A00ED7644 /* MadSellSayapina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadSellSayapina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB472C827F2DC2A00ED7644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB472CA27F2DC2A00ED7644 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3FB472CC27F2DC2A00ED7644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		3FB472D127F2DC2B00ED7644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FB472D427F2DC2B00ED7644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FB472D627F2DC2B00ED7644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB472DC27F2E34700ED7644 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		3FB472DE27F2ED4E00ED7644 /* IvanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvanViewController.swift; sourceTree = "<group>"; };
+		3FB472E027F2F8F500ED7644 /* СamerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СamerViewController.swift"; sourceTree = "<group>"; };
+		3FB472E427F2FF7200ED7644 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		3FB472E627F3030E00ED7644 /* CamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamViewController.swift; sourceTree = "<group>"; };
+		3FB472E827F30AEB00ED7644 /* CamerrraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerrraViewController.swift; sourceTree = "<group>"; };
+		3FB472EA27F3108000ED7644 /* PickCategoryPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCategoryPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +62,7 @@
 		3FB472C627F2DC2A00ED7644 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FB472C527F2DC2A00ED7644 /* MadSell.app */,
+				3FB472C527F2DC2A00ED7644 /* MadSellSayapina.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +70,13 @@
 		3FB472C727F2DC2A00ED7644 /* MadSell */ = {
 			isa = PBXGroup;
 			children = (
+				3FB472EA27F3108000ED7644 /* PickCategoryPageViewController.swift */,
+				3FB472E827F30AEB00ED7644 /* CamerrraViewController.swift */,
+				3FB472E627F3030E00ED7644 /* CamViewController.swift */,
+				3FB472E427F2FF7200ED7644 /* TabBarViewController.swift */,
+				3FB472E027F2F8F500ED7644 /* СamerViewController.swift */,
+				3FB472DE27F2ED4E00ED7644 /* IvanViewController.swift */,
+				3FB472DC27F2E34700ED7644 /* RegistrationViewController.swift */,
 				3FB472C827F2DC2A00ED7644 /* AppDelegate.swift */,
 				3FB472CA27F2DC2A00ED7644 /* SceneDelegate.swift */,
 				3FB472CC27F2DC2A00ED7644 /* ViewController.swift */,
@@ -70,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FB472C427F2DC2A00ED7644 /* MadSell */ = {
+		3FB472C427F2DC2A00ED7644 /* MadSellSayapina */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FB472D927F2DC2B00ED7644 /* Build configuration list for PBXNativeTarget "MadSell" */;
+			buildConfigurationList = 3FB472D927F2DC2B00ED7644 /* Build configuration list for PBXNativeTarget "MadSellSayapina" */;
 			buildPhases = (
 				3FB472C127F2DC2A00ED7644 /* Sources */,
 				3FB472C227F2DC2A00ED7644 /* Frameworks */,
@@ -82,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = MadSell;
+			name = MadSellSayapina;
 			productName = MadSell;
-			productReference = 3FB472C527F2DC2A00ED7644 /* MadSell.app */;
+			productReference = 3FB472C527F2DC2A00ED7644 /* MadSellSayapina.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3FB472C027F2DC2A00ED7644 /* Build configuration list for PBXProject "MadSell" */;
+			buildConfigurationList = 3FB472C027F2DC2A00ED7644 /* Build configuration list for PBXProject "MadSellSayapina" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FB472C427F2DC2A00ED7644 /* MadSell */,
+				3FB472C427F2DC2A00ED7644 /* MadSellSayapina */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB472E527F2FF7200ED7644 /* TabBarViewController.swift in Sources */,
 				3FB472CD27F2DC2A00ED7644 /* ViewController.swift in Sources */,
+				3FB472E927F30AEB00ED7644 /* CamerrraViewController.swift in Sources */,
+				3FB472E727F3030E00ED7644 /* CamViewController.swift in Sources */,
+				3FB472EB27F3108000ED7644 /* PickCategoryPageViewController.swift in Sources */,
+				3FB472E127F2F8F500ED7644 /* СamerViewController.swift in Sources */,
 				3FB472C927F2DC2A00ED7644 /* AppDelegate.swift in Sources */,
+				3FB472DF27F2ED4E00ED7644 /* IvanViewController.swift in Sources */,
+				3FB472DD27F2E34700ED7644 /* RegistrationViewController.swift in Sources */,
 				3FB472CB27F2DC2A00ED7644 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MadSell/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MadSellSayapina;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +347,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MadSell/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MadSellSayapina;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -339,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FB472C027F2DC2A00ED7644 /* Build configuration list for PBXProject "MadSell" */ = {
+		3FB472C027F2DC2A00ED7644 /* Build configuration list for PBXProject "MadSellSayapina" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FB472D727F2DC2B00ED7644 /* Debug */,
@@ -348,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FB472D927F2DC2B00ED7644 /* Build configuration list for PBXNativeTarget "MadSell" */ = {
+		3FB472D927F2DC2B00ED7644 /* Build configuration list for PBXNativeTarget "MadSellSayapina" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FB472DA27F2DC2B00ED7644 /* Debug */,
